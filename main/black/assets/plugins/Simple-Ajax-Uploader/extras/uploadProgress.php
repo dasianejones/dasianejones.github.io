@@ -3,7 +3,7 @@
 /**
 * Simple Ajax Uploader
 * Version 1.11
-* httpss://github.com/LPology/Simple-Ajax-Uploader
+* https://github.com/LPology/Simple-Ajax-Uploader
 *
 * Copyright 2012-2014 LPology, LLC  
 * Released under the MIT license

@@ -13,7 +13,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * 
  * For more usage documentation and examples, visit:
- *  httpss://github.com/jakerella/jquerySimpleCaptcha
+ *  https://github.com/jakerella/jquerySimpleCaptcha
  * 
  */
 ;(function($) {
