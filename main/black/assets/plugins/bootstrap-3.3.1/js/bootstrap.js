@@ -1,7 +1,7 @@
 /*!
- * Bootstrap v3.3.1 (http://getbootstrap.com)
+ * Bootstrap v3.3.1 (https://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 if (typeof jQuery === 'undefined') {
@@ -17,17 +17,17 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: transition.js v3.3.1
- * http://getbootstrap.com/javascript/#transitions
+ * https://getbootstrap.com/javascript/#transitions
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
 +function ($) {
   'use strict';
 
-  // CSS TRANSITION SUPPORT (Shoutout: http://www.modernizr.com/)
+  // CSS TRANSITION SUPPORT (Shoutout: https://www.modernizr.com/)
   // ============================================================
 
   function transitionEnd() {
@@ -49,7 +49,7 @@ if (typeof jQuery === 'undefined') {
     return false // explicit for ie8 (  ._.)
   }
 
-  // http://blog.alexmaccaw.com/css-transitions
+  // https://blog.alexmaccaw.com/css-transitions
   $.fn.emulateTransitionEnd = function (duration) {
     var called = false
     var $el = this
@@ -77,10 +77,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: alert.js v3.3.1
- * http://getbootstrap.com/javascript/#alerts
+ * https://getbootstrap.com/javascript/#alerts
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -172,10 +172,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: button.js v3.3.1
- * http://getbootstrap.com/javascript/#buttons
+ * https://getbootstrap.com/javascript/#buttons
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -289,10 +289,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: carousel.js v3.3.1
- * http://getbootstrap.com/javascript/#carousel
+ * https://getbootstrap.com/javascript/#carousel
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -530,10 +530,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: collapse.js v3.3.1
- * http://getbootstrap.com/javascript/#collapse
+ * https://getbootstrap.com/javascript/#collapse
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -742,10 +742,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: dropdown.js v3.3.1
- * http://getbootstrap.com/javascript/#dropdowns
+ * https://getbootstrap.com/javascript/#dropdowns
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -904,10 +904,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: modal.js v3.3.1
- * http://getbootstrap.com/javascript/#modals
+ * https://getbootstrap.com/javascript/#modals
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1229,11 +1229,11 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: tooltip.js v3.3.1
- * http://getbootstrap.com/javascript/#tooltip
+ * https://getbootstrap.com/javascript/#tooltip
  * Inspired by the original jQuery.tipsy by Jason Frame
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1564,7 +1564,7 @@ if (typeof jQuery === 'undefined') {
 
     var elRect    = el.getBoundingClientRect()
     if (elRect.width == null) {
-      // width and height are missing in IE8, so compute them manually; see https://github.com/twbs/bootstrap/issues/14093
+      // width and height are missing in IE8, so compute them manually; see httpss://github.com/twbs/bootstrap/issues/14093
       elRect = $.extend({}, elRect, { width: elRect.right - elRect.left, height: elRect.bottom - elRect.top })
     }
     var elOffset  = isBody ? { top: 0, left: 0 } : $element.offset()
@@ -1708,10 +1708,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: popover.js v3.3.1
- * http://getbootstrap.com/javascript/#popovers
+ * https://getbootstrap.com/javascript/#popovers
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -1828,10 +1828,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: scrollspy.js v3.3.1
- * http://getbootstrap.com/javascript/#scrollspy
+ * https://getbootstrap.com/javascript/#scrollspy
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -2004,10 +2004,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: tab.js v3.3.1
- * http://getbootstrap.com/javascript/#tabs
+ * https://getbootstrap.com/javascript/#tabs
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 
@@ -2158,10 +2158,10 @@ if (typeof jQuery === 'undefined') {
 
 /* ========================================================================
  * Bootstrap: affix.js v3.3.1
- * http://getbootstrap.com/javascript/#affix
+ * https://getbootstrap.com/javascript/#affix
  * ========================================================================
  * Copyright 2011-2014 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ * Licensed under MIT (httpss://github.com/twbs/bootstrap/blob/master/LICENSE)
  * ======================================================================== */
 
 

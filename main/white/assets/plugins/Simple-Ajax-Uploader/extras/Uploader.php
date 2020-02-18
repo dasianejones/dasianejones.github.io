@@ -3,7 +3,7 @@
 /**
 * Simple Ajax Uploader
 * Version 1.11
-* https://github.com/LPology/Simple-Ajax-Uploader
+* httpss://github.com/LPology/Simple-Ajax-Uploader
 *
 * Copyright 2014 LPology, LLC
 * Released under the MIT license
@@ -146,7 +146,7 @@ class FileUpload {
 
     // escapeJS and jsMatcher are adapted from the Escaper component of 
     // Zend Framework, Copyright (c) 2005-2013, Zend Technologies USA, Inc.
-    // https://github.com/zendframework/zf2/tree/master/library/Zend/Escaper
+    // httpss://github.com/zendframework/zf2/tree/master/library/Zend/Escaper
     private function escapeJS($string) {
         return preg_replace_callback('/[^a-z0-9,\._]/iSu', $this->jsMatcher, $string);
     }

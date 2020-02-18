@@ -160,7 +160,7 @@ class SimpleCaptcha {
   // Static helper methods
 
   public static function getProtocol() {
-    $protocol = "HTTP/1.1";
+    $protocol = "https/1.1";
     if(isset($_SERVER['SERVER_PROTOCOL'])) {
       $protocol = $_SERVER['SERVER_PROTOCOL'];
     }

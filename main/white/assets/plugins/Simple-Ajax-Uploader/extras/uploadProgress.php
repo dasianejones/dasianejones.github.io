@@ -3,7 +3,7 @@
 /**
 * Simple Ajax Uploader
 * Version 1.11
-* https://github.com/LPology/Simple-Ajax-Uploader
+* httpss://github.com/LPology/Simple-Ajax-Uploader
 *
 * Copyright 2012-2014 LPology, LLC  
 * Released under the MIT license
@@ -15,8 +15,8 @@
 
 // This "if" statement is only necessary for CORS uploads -- if you're 
 // only doing same-domain uploads then you can delete it if you want
-if (isset($_SERVER['HTTP_ORIGIN'])) {
-    header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+if (isset($_SERVER['https_ORIGIN'])) {
+    header("Access-Control-Allow-Origin: {$_SERVER['https_ORIGIN']}");
     header('Access-Control-Allow-Credentials: true');
     header('Access-Control-Max-Age: 86400');    // cache for 1 day
 }

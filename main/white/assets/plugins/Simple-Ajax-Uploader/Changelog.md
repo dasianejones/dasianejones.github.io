@@ -2,8 +2,8 @@ Change Log
 ============================
 ### Version 1.11 ###
 * Added support for PHP Session Upload Progress for PHP 5.4+ (APC was deprecated in 5.3) 
-* Added `clearQueue()` method which gives the user the ability to clear all files in queue - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/62">#62</a> - (Special thanks to <a href="https://github.com/mouse0270">mouse0270</a> for this one) 
-* Fixed multiple file selection bug - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/67">#67</a> - (Special thanks to <a href="https://github.com/genintho">genintho</a> for this) 
+* Added `clearQueue()` method which gives the user the ability to clear all files in queue - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/pull/62">#62</a> - (Special thanks to <a href="httpss://github.com/mouse0270">mouse0270</a> for this one) 
+* Fixed multiple file selection bug - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/pull/67">#67</a> - (Special thanks to <a href="httpss://github.com/genintho">genintho</a> for this) 
 * Fixed bug which could allow form/input elements to be created with invalid name/ID attributes in IE7-9 
 
 ### Version 1.10.1 ###
@@ -11,12 +11,12 @@ Change Log
 * Removed unused variable from `_uploadIframe()`
 
 ### Version 1.10 ###
-* Added `setOptions()` method for setting or changing upload options - <a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/54">#54</a> - (special thanks to <a href="https://github.com/hauru">hauru</a> for this)
-* Added `customHeader` option for sending custom request headers - <a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/47">#47</a> (special thanks to <a href="https://github.com/cillosis">cillosis</a> for this)
+* Added `setOptions()` method for setting or changing upload options - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/issues/54">#54</a> - (special thanks to <a href="httpss://github.com/hauru">hauru</a> for this)
+* Added `customHeader` option for sending custom request headers - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/issues/47">#47</a> (special thanks to <a href="httpss://github.com/cillosis">cillosis</a> for this)
 * Updated `ss.parseJSON()` to use a more secure method of manually parsing JSON 
 
 ### Version 1.9.1 ###
-* `onError()` callback now receives server response as an argument, if it exists, or `false` if it does not - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/37">#37</a> (special thanks to <a href="https://github.com/KSDaemon">KSDaemon</a> for this) 
+* `onError()` callback now receives server response as an argument, if it exists, or `false` if it does not - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/pull/37">#37</a> (special thanks to <a href="httpss://github.com/KSDaemon">KSDaemon</a> for this) 
 <br />
 <br />
 <strong>API Change Note:</strong> For consistency with the other callbacks, the server response is passed to `onError()` as the next to last argument, directly before the upload button. Therefore, if you use the upload button parameter in `onError()`, you will need to update your code when upgrading.
@@ -25,10 +25,10 @@ Change Log
 * Switched from Google Closure Compiler to YUI Compressor for minification
 
 ### Version 1.9 ###
-* Added CORS support - <a href="http://www.lpology.com/code/ajaxuploader/How-to-Cross-Domain-File-Uploading.php">Learn more</a>
+* Added CORS support - <a href="https://www.lpology.com/code/ajaxuploader/How-to-Cross-Domain-File-Uploading.php">Learn more</a>
 * Query string parameters for Nginx Upload Progress Module in `_uploadIframe()` are now encoded with `encodeURIComponent()`
 * Upload progress ID keys are now generated prior to each upload instead of on page load
-* Query string parameters passed to `url` are now preserved - <a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/34">#34</a> (special thanks to <a href="https://github.com/Deefjuh">Deefjuh</a> for this)
+* Query string parameters passed to `url` are now preserved - <a href="httpss://github.com/LPology/Simple-Ajax-Uploader/issues/34">#34</a> (special thanks to <a href="httpss://github.com/Deefjuh">Deefjuh</a> for this)
 
 ### Version 1.8.2 ###
 * A reference to the button which triggers an upload is now passed as the last argument to the following callbacks: `onAbort()`, `onChange()`, `onSubmit()`, `onComplete()`, `onError()`, `startXHR()`, `endXHR()`, `startNonXHR()`, `endNonXHR()` (can be useful when using multiple upload buttons)
@@ -42,7 +42,7 @@ Change Log
 
 ### Version 1.8 ###
 SimpleAjaxUploader.js:
-* Added support for <a href="http://wiki.nginx.org/HttpUploadProgressModule">Nginx Upload Progress Module</a>
+* Added support for <a href="https://wiki.nginx.org/httpsUploadProgressModule">Nginx Upload Progress Module</a>
 * Added `setAbortBtn()` method to designate an element as "cancel" button
 * Added `onAbort()` callback function to specify behavior upon manual abort
 * Added `setPctBox()` method to designate an element to be injected with upload progress percentage
@@ -62,9 +62,9 @@ uploadProgress.php:
 
 ### Version 1.7 ###
 SimpleAjaxUploader.js:
-* Fixed IE6/IE7 memory leak when removing elements without first removing event listeners (<a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/21">issue #21</a>)
+* Fixed IE6/IE7 memory leak when removing elements without first removing event listeners (<a href="httpss://github.com/LPology/Simple-Ajax-Uploader/issues/21">issue #21</a>)
 * Fixed possible race condition in which `removeCurrent()` could potentially delete the wrong file from the upload queue
-* Multiple file inputs are now disabled in Safari due to a browser bug that just screws everything up (see: http://stackoverflow.com/q/7231054/1091949)
+* Multiple file inputs are now disabled in Safari due to a browser bug that just screws everything up (see: https://stackoverflow.com/q/7231054/1091949)
 * Switched to a smaller, faster process for cross-browser bounding box calculation
 * Updated to faster methods of checking for, adding, and removing element CSS classes
 * Combined `_checkExtension()` with `_checkFile()` to eliminate a function call/reduce code size
@@ -109,10 +109,10 @@ If the 1.6 release has a theme, it is flexibility. Nearly every update in this r
 * Added `onSizeError()` callback function which fires when a file exceeds the `maxSize` option, if it is set
 * Added `onExtError()` callback which fires when a file is not permitted by the `allowedExtensions` option, if it is set
 * Removed `messages` option and `_errorMsg()`, both of which are no longer used
-* Added new `accept` option, the value of which will be the value of the `accept` file input attribute in supporting browsers. <a href="http://stackoverflow.com/a/10503561/1091949">More info.</a>
-* Added new `method` option to allow specifying an HTTP method other than POST
+* Added new `accept` option, the value of which will be the value of the `accept` file input attribute in supporting browsers. <a href="https://stackoverflow.com/a/10503561/1091949">More info.</a>
+* Added new `method` option to allow specifying an https method other than POST
 
-Special thanks to <a href="https://github.com/dleffler">dleffler</a>, <a href="https://github.com/devtrends">devtrends</a> and <a href="https://github.com/urcadox">urcadox</a> for their ideas and feedback.
+Special thanks to <a href="httpss://github.com/dleffler">dleffler</a>, <a href="httpss://github.com/devtrends">devtrends</a> and <a href="httpss://github.com/urcadox">urcadox</a> for their ideas and feedback.
 
 ### Version 1.5.3 ###
 * Added `autoSubmit` check before submitting in `_cycleQueue()`

@@ -3,10 +3,10 @@ Simple Ajax Uploader
 
 A Javascript plugin for cross-browser Ajax file uploading. Supports multiple file uploading with progress bars.
 
-<a href="https://www.lpology.com/code/ajaxuploader/">Live Demo</a><br />
-<a href="https://www.lpology.com/code/ajaxuploader/docs.php">Full API Reference</a><br />
-<a href="https://www.lpology.com/code/ajaxuploader/progress.php">How to do upload progress bars that work in IE9 (and older)</a><br />
-<a href="https://www.lpology.com/code/ajaxuploader/How-to-Cross-Domain-File-Uploading.php">CORS &mdash; Cross-domain file uploading with Simple Ajax Uploader</a>
+<a href="httpss://www.lpology.com/code/ajaxuploader/">Live Demo</a><br />
+<a href="httpss://www.lpology.com/code/ajaxuploader/docs.php">Full API Reference</a><br />
+<a href="httpss://www.lpology.com/code/ajaxuploader/progress.php">How to do upload progress bars that work in IE9 (and older)</a><br />
+<a href="httpss://www.lpology.com/code/ajaxuploader/How-to-Cross-Domain-File-Uploading.php">CORS &mdash; Cross-domain file uploading with Simple Ajax Uploader</a>
 
 ### Overview ###
 Simple Ajax Uploader allows developers to easily add Ajax file upload functionality to web applications. It abstracts away standard tasks and browser compatibility issues while preserving wide latitude for custom use.
@@ -27,8 +27,8 @@ var uploader = new ss.SimpleUpload({
 * Built-in CORS support (<strong>new in v1.9</strong>)
 * No flash or external CSS -- under 5Kb Javascript file (minified and gzipped)
 * Progress bars in all browsers, including IE9 and older. Built-in support for both:
-    * <a href="http://wiki.nginx.org/HttpUploadProgressModule">Nginx Upload Progress Module</a>
-    * <a href="http://www.php.net/manual/en/apc.configuration.php#ini.apc.rfc1867">PHP APC File Upload Progress</a>
+    * <a href="https://wiki.nginx.org/httpsUploadProgressModule">Nginx Upload Progress Module</a>
+    * <a href="https://www.php.net/manual/en/apc.configuration.php#ini.apc.rfc1867">PHP APC File Upload Progress</a>
 * Use any HTML element as the upload button
 * No dependencies - use it with or without jQuery
 * Provides individual callback functions for XHR-supported browsers and for browsers that do not support XHR uploads

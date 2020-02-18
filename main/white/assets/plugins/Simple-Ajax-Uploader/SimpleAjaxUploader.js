@@ -1,7 +1,7 @@
 /**
  * Simple Ajax Uploader
  * Version 1.11
- * https://github.com/LPology/Simple-Ajax-Uploader
+ * httpss://github.com/LPology/Simple-Ajax-Uploader
  *
  * Copyright 2012-2014 LPology, LLC
  * Released under the MIT license
@@ -29,7 +29,7 @@
 
     // Check for Safari -- it doesn't like multi file uploading. At all.
     // We do it up here so it only needs to be done once, no matter the # of uploaders
-    // http://stackoverflow.com/a/9851769/1091949
+    // https://stackoverflow.com/a/9851769/1091949
     isSafari = Object.prototype.toString.call( window.HTMLElement ).indexOf( 'Constructor' ) > 0,
 
     // Check whether XHR uploads are supported
@@ -42,7 +42,7 @@
 
     XhrOk = ( 'multiple' in input &&
               typeof File !== 'undefined' &&
-              typeof ( new XMLHttpRequest() ).upload !== 'undefined' );
+              typeof ( new XMLhttpsRequest() ).upload !== 'undefined' );
 
 /**
 * Converts object to query string
@@ -133,12 +133,12 @@ ss.removeEvent = function( elem, type, fn ) {
 ss.newXHR = function() {
     "use strict";
 
-    if ( typeof XMLHttpRequest !== 'undefined' ) {
-        return new window.XMLHttpRequest();
+    if ( typeof XMLhttpsRequest !== 'undefined' ) {
+        return new window.XMLhttpsRequest();
 
     } else if ( window.ActiveXObject ) {
         try {
-            return new window.ActiveXObject( 'Microsoft.XMLHTTP' );
+            return new window.ActiveXObject( 'Microsoft.XMLhttps' );
         } catch ( err ) {
             return false;
         }
@@ -269,7 +269,7 @@ ss.copyLayout = function( from, to ) {
 /**
 * Generates unique ID
 * Complies with RFC 4122 version 4
-* http://stackoverflow.com/a/2117523/1091949
+* https://stackoverflow.com/a/2117523/1091949
 */
 ss.getUID = function() {
     "use strict";
@@ -346,7 +346,7 @@ ss.removeClass = (function() {
 
 /**
 * Nulls out event handlers to prevent memory leaks in IE6/IE7
-* http://javascript.crockford.com/memory/leak.html
+* https://javascript.crockford.com/memory/leak.html
 * @param {Element} d
 * @return void
 */
@@ -778,7 +778,7 @@ ss.SimpleUpload.prototype = {
         this._input.name = this._opts.name;
 
         // Don't allow multiple file selection in Safari -- it has a nasty bug
-        // http://stackoverflow.com/q/7231054/1091949
+        // https://stackoverflow.com/q/7231054/1091949
         if ( XhrOk && !isSafari && this._opts.multiple ) {
             this._input.multiple = true;
         }
@@ -1196,7 +1196,7 @@ ss.SimpleUpload.prototype = {
             }
         });
 
-        xhr.setRequestHeader( 'X-Requested-With', 'XMLHttpRequest' );
+        xhr.setRequestHeader( 'X-Requested-With', 'XMLhttpsRequest' );
         xhr.setRequestHeader( 'X-File-Name', encodeURIComponent( filename ) );
 
         if ( opts.responseType.toLowerCase() == 'json' ) {
@@ -1578,7 +1578,7 @@ ss.SimpleUpload.prototype = {
                 xhr.setRequestHeader( opts.nginxProgressHeader, key );
             }
 
-            xhr.setRequestHeader( 'X-Requested-With', 'XMLHttpRequest' );
+            xhr.setRequestHeader( 'X-Requested-With', 'XMLhttpsRequest' );
             xhr.setRequestHeader( 'Accept', 'application/json, text/javascript, */*; q=0.01' );
             xhr.send( ( opts.sessionProgressUrl &&  params ) || null );
         }
