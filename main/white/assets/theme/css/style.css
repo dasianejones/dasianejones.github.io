@@ -1,4 +1,4 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800");
 /*
 This files contents are outlined below.
 01. BODY 
@@ -1206,12 +1206,12 @@ textarea.form-flat {
   padding: 40px;
   text-align: right;
 }
-.my-profile .my-pict .overfly:hover {
-  /*        background: transparent;
+/* .my-profile .my-pict .overfly:hover { */
+/*        background: transparent;
                 .text-botttom{
                   bottom: -100%;
                 }*/
-}
+
 .my-profile .my-desc,
 .my-profile .my-pict {
   width: 50%;
