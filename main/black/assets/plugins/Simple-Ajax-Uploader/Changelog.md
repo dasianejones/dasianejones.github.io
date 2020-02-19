@@ -1,27 +1,27 @@
-Change Log 
+<!-- Change Log  -->
 ============================
-### Version 1.11 ###
-* Added support for PHP Session Upload Progress for PHP 5.4+ (APC was deprecated in 5.3) 
+<!-- ### Version 1.11 ### -->
+<!-- * Added support for PHP Session Upload Progress for PHP 5.4+ (APC was deprecated in 5.3) 
 * Added `clearQueue()` method which gives the user the ability to clear all files in queue - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/62">#62</a> - (Special thanks to <a href="https://github.com/mouse0270">mouse0270</a> for this one) 
 * Fixed multiple file selection bug - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/67">#67</a> - (Special thanks to <a href="https://github.com/genintho">genintho</a> for this) 
-* Fixed bug which could allow form/input elements to be created with invalid name/ID attributes in IE7-9 
+* Fixed bug which could allow form/input elements to be created with invalid name/ID attributes in IE7-9  -->
 
-### Version 1.10.1 ###
+<!-- ### Version 1.10.1 ###
 * `iframe` and `form` elements are now created with `document.createElement()` rather than the much slower HTML injection method
-* Removed unused variable from `_uploadIframe()`
+* Removed unused variable from `_uploadIframe()` -->
 
-### Version 1.10 ###
+<!-- ### Version 1.10 ###
 * Added `setOptions()` method for setting or changing upload options - <a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/54">#54</a> - (special thanks to <a href="https://github.com/hauru">hauru</a> for this)
 * Added `customHeader` option for sending custom request headers - <a href="https://github.com/LPology/Simple-Ajax-Uploader/issues/47">#47</a> (special thanks to <a href="https://github.com/cillosis">cillosis</a> for this)
-* Updated `ss.parseJSON()` to use a more secure method of manually parsing JSON 
+* Updated `ss.parseJSON()` to use a more secure method of manually parsing JSON  -->
 
-### Version 1.9.1 ###
+<!-- ### Version 1.9.1 ###
 * `onError()` callback now receives server response as an argument, if it exists, or `false` if it does not - <a href="https://github.com/LPology/Simple-Ajax-Uploader/pull/37">#37</a> (special thanks to <a href="https://github.com/KSDaemon">KSDaemon</a> for this) 
 <br />
 <br />
 <strong>API Change Note:</strong> For consistency with the other callbacks, the server response is passed to `onError()` as the next to last argument, directly before the upload button. Therefore, if you use the upload button parameter in `onError()`, you will need to update your code when upgrading.
 <br />
-<br />
+<br /> -->
 * Switched from Google Closure Compiler to YUI Compressor for minification
 
 ### Version 1.9 ###

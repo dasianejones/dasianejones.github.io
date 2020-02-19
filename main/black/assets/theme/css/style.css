@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700, 800");
 /*
 This files contents are outlined below.
 01. BODY 
@@ -31,7 +31,7 @@ This files contents are outlined below.
 body {
   background: #ffffff;
   color: #7d7d7d;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   line-height: 2;
   font-size: 13px;
   position: relative;
@@ -40,7 +40,7 @@ body {
 body .wrapper {
   z-index: 2;
   visibility: hidden;
-  opacity: 0.0;
+  opacity: 0;
   position: relative;
 }
 /*============================
@@ -84,7 +84,7 @@ h4,
 h5,
 h6 {
   line-height: 1.2;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
 }
 h4,
 h5,
@@ -440,7 +440,7 @@ blockquote {
   -ms-transform: rotate(45deg);
 }
 .error {
-  color: #BD2929;
+  color: #bd2929;
   font-weight: 400;
   letter-spacing: 2px;
   transition: all 0.3s ease 0s;
@@ -622,7 +622,7 @@ blockquote {
   -ms-border-radius: 0 !important;
   -o-border-radius: 0 !important;
   border-radius: 0 !important;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   transition: all 0.8s ease 0s;
   -webkit-transition: all 0.8s ease 0s;
   -moz-transition: all 0.8s ease 0s;
@@ -689,7 +689,7 @@ blockquote {
   min-width: 35px;
 }
 .btn-flat-line {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   -ms-border-radius: 0 !important;
@@ -828,7 +828,7 @@ blockquote {
   -o-border-radius: 0 !important;
   border-radius: 0 !important;
   height: 45px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   border-color: #ebebeb;
 }
 .form-control.form-flat.input-lg {
@@ -864,7 +864,7 @@ blockquote {
     display: block !important;
   }
 }
-textArea.form-flat {
+textarea.form-flat {
   height: auto !important;
 }
 .form-control-large,
@@ -934,7 +934,7 @@ textArea.form-flat {
   position: relative;
   overflow: hidden;
 }
-.btn-file input[type=file] {
+.btn-file input[type="file"] {
   position: absolute;
   top: 0;
   right: 0;
@@ -1206,13 +1206,7 @@ textArea.form-flat {
   padding: 40px;
   text-align: right;
 }
-.my-profile .my-pict .overfly:hover {
-  /*        background: transparent;
-                .text-botttom{
-                  bottom: -100%;
-                }*/
-
-}
+/* */
 .my-profile .my-desc,
 .my-profile .my-pict {
   width: 50%;
@@ -1402,9 +1396,9 @@ textArea.form-flat {
   z-index: 2;
 }
 .chart .percent:after {
-  content: '%';
+  content: "%";
   margin-left: 0.1em;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 .title-border {
   text-align: center;
@@ -1462,7 +1456,7 @@ textArea.form-flat {
 }
 .box-work .work-preview .hover .link-btns {
   position: absolute;
-  top: 50% ;
+  top: 50%;
   opacity: 0;
   filter: alpha(opacity=0);
   margin-top: -40px;
